@@ -350,35 +350,35 @@ Command Section
 
 ![Alt text](shots/70.JPG)
 
-![Alt text](shots1/71.JPG)
+![Alt text](shots/71.JPG)
 
 * Now the chnages in the main branch to be merged into sprint branch, we have two ways to do this
 
 1. Three way merge as follows (confusing approach)
 
-![Alt text](shots1/72.JPG)
+![Alt text](shots/72.JPG)
 
 2. Rebase as follows (cleaner approach)
 
 * Rebase is useful for all the child branches but never rebase main/master from child as rebase rewrites history.
 * To rebase we checkout sprint and rebase to main using (git rebase main) command
 
-![Alt text](shots1/73.JPG)
+![Alt text](shots/73.JPG)
 
-![Alt text](shots1/74.JPG)
+![Alt text](shots/74.JPG)
 
 * Here arises a merge conflict, with the src/main.py
 * we open the file in notepad, edit with changes and now rebase again using (git rebase --continue) command
 
-![Alt text](shots1/75.JPG)
+![Alt text](shots/75.JPG)
 
-![Alt text](shots1/76.JPG)
+![Alt text](shots/76.JPG)
 
-![Alt text](shots1/77.JPG)
+![Alt text](shots/77.JPG)
 
 * Now after the rebase the commit id of the sprint branch gets changed as the parent get's changed and also shows that it is replaced after the main branch
 
-![Alt text](shots1/78.JPG)
+![Alt text](shots/78.JPG)
 
 * This is nothing but the rewriting of the history
 
@@ -387,9 +387,9 @@ Command Section
 * If we need to pick specific commits or specific range of commits (sequence) of commits , cherry pick can be used
 * Firstly, we add two commits
 
-![Alt text](shots1/79.JPG)
+![Alt text](shots/79.JPG)
 
-![Alt text](shots1/80.JPG)
+![Alt text](shots/80.JPG)
 
 * Performing changes from any commit to any branch
 * Now consider the above, we want changes from commit (commit id - 97bb278) into main branch
@@ -397,7 +397,7 @@ Command Section
  * first checkout the target/destination
  * use cherry-pick(git cherry-pick 97bb278)command
 
-![Alt text](shots1/81.JPG)
+![Alt text](shots/81.JPG)
 
 ## Remote Repository
 
