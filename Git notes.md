@@ -1,10 +1,39 @@
-# GIT Practice Notes
-## Introduction 
+## Version Control Systems
+
+* This is a software which helps organizations to maintain the source code.
+* VCS helps in maintaining history of changes
+* VCS allows us to maintain track of different releases which we give to customers
+* VCS allows parallel development by multiple developers
+
+## Types of VCS
+  1. Local Version Control Systems
+  2. Centralized Version Control Systems
+
+![Alt text](shots/110.PNG)
+
+  3. Distributed Version Control Systems
+
+![Alt text](shots/111.PNG)
+
+## Git 
 
 * Distributed Version Control System
 * Options for remote repo :
     1.Self hosted
+      * Host it on your own
+      * Options:
+          * Gitolite
+          * Git lab Selfhosted
+
     2.Cloud hosted
+       * Hosted by some service provider.
+       * Options:
+          * GitHub
+          * GitLab
+          * Azure Source Repos
+          * AWS Code Commit
+          * Bit Bucket
+          
 * Github : opensource (now acquired by Microsoft)
 * using of cheatsheet
 
