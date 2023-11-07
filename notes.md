@@ -21,14 +21,14 @@
 * Options for remote repos :
   
   1. Self hosted
-    * Host it on your own
-    * Options :
+     * Host it on your own
+     * Options :
         * Gitolite
         * Git lab Selfhosted
 
   2. Cloud hosted
-    * Hosted by some service provider
-    * Options :
+     * Hosted by some service provider
+     * Options :
         * GitHub
         * GitLab
         * Azure Source Repos
