@@ -19,25 +19,27 @@
 
 * _**Distributed Version Control System**_
 * Options for remote repos :
-    1.Self hosted
-      * Host it on your own
-      * Options:
-          * Gitolite
-          * Git lab Selfhosted
+  
+  1. Self hosted
+    * Host it on your own
+    * Options :
+        * Gitolite
+        * Git lab Selfhosted
 
-    2.Cloud hosted
-       * Hosted by some service provider.
-       * Options:
-          * GitHub
-          * GitLab
-          * Azure Source Repos
-          * AWS Code Commit
-          * Bit Bucket
+  2. Cloud hosted
+    * Hosted by some service provider
+    * Options :
+        * GitHub
+        * GitLab
+        * Azure Source Repos
+        * AWS Code Commit
+        * Bit Bucket
           
-* `Github` : opensource (now acquired by Microsoft)
+* `Github` : OpenSource (now acquired by Microsoft)
 * History of Git :
 
 [Refer here : https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git ]
+
 * Cheatsheet for Github  (downloaded)
 
 [Refer here : C:\Users\Harika\Desktop\DEVOPS + AWS\DEVOPS ]
@@ -47,13 +49,14 @@
 ![Alt text](shots/1.jpg)
 
 ### Git as local repository
+
 * Having one user and one system
 * Repository - storage space - maintaining history,
-    e.g: google drive
+  e.g: google drive
 
 ### Starting with GitBash
 
-* We enter into the `directory/`folder using `cd - c/Git-Practice`
+* We enter into the `directory/`folder using `cd c/Git-Practice/`
 * Create a folder `hellogit` inisde the first folder
 * Using `pwd`(Pesent Working Directory) we can know the current directory
 * using `start .` the window will open where the folder/directory being created
@@ -66,16 +69,16 @@
 
 * In the `.git` folder we have both local repo and the working tree
 * Here `hellogit` is the working tree
-* Now the changes versioned will be stored(history stored) in the local repo
+* Now the changes versioned will be stored (history stored) in the local repo
 * Now we create a folder `src` (coding done area) and a python based empty file `file.py`
 * To check for any changes happened we ask for `git status`
-* To ask for status we need to be in the `.git`folder or it's subfolders
+* To ask for status we need to be in the `.git` folder or it's subfolders
 
 ![Alt text](shots/4.jpg)
 
 * For here we have folder src (we have a change)
 * Now to move the changes _**from working tree to staging area**_ we use `add` command
-* Now the color changes from red to green to tell git about when you are changing and what are being changed 
+* Now the color changes from `red to green` to tell git about when you are changing and what are being changed 
 
 ![Alt text](shots/5.jpg)
 
