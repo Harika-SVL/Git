@@ -1,24 +1,24 @@
 ## Version Control Systems
 
-* This is a software which helps organizations to maintain the source code.
-* VCS helps in maintaining history of changes
-* VCS allows us to maintain track of different releases which we give to customers
-* VCS allows parallel development by multiple developers
+* Software which helps organizations to maintain the source code
+* VCS helps in `maintaining history of changes` and also allows us to maintain track of different releases which we give to customers
+* It allows `parallel development` by multiple developers
 
-## Types of VCS
-  1. Local Version Control Systems
-  2. Centralized Version Control Systems
+### Types of VCS
+
+  1. Local Version Control System
+  2. Centralized Version Control System
 
 ![Alt text](shots/110.PNG)
 
-  3. Distributed Version Control Systems
+  3. Distributed Version Control System
 
 ![Alt text](shots/111.PNG)
 
 ## Git 
 
-* Distributed Version Control System
-* Options for remote repo :
+* _**Distributed Version Control System**_
+* Options for remote repos :
     1.Self hosted
       * Host it on your own
       * Options:
@@ -34,58 +34,61 @@
           * AWS Code Commit
           * Bit Bucket
           
-* Github : opensource (now acquired by Microsoft)
-* using of cheatsheet
+* `Github` : opensource (now acquired by Microsoft)
+* History of Git :
 
-## Git Workflow
+[Refer here : https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git ]
+* Cheatsheet for Github  (downloaded)
+
+[Refer here : C:\Users\Harika\Desktop\DEVOPS + AWS\DEVOPS ]
+
+### Git Workflow
 
 ![Alt text](shots/1.jpg)
 
-## Git as local repository
+### Git as local repository
 * Having one user and one system
 * Repository - storage space - maintaining history,
     e.g: google drive
 
-## Starting with GitBash
+### Starting with GitBash
 
-* we enter into the directory/folder using cd - c/Git-Practice
-* we create a folder (hellogit) inisde the first folder
-* using pwd we can know the current directory
-* using start . the window will open where the folder/directory being created
+* We enter into the `directory/`folder using `cd - c/Git-Practice`
+* Create a folder `hellogit` inisde the first folder
+* Using `pwd`(Pesent Working Directory) we can know the current directory
+* using `start .` the window will open where the folder/directory being created
 
 ![Alt text](shots/2.jpg)
 
-
-* For making it a local repo we use git init command (.git folder with some sub folders gets created in the previous window)
+* For making it a local repo we use `git init` command (.git folder with some sub folders gets created in the previous window)
 
 ![Alt text](shots/3.jpg)
 
-* In the .git folder we have both local repo and the working tree
-* Here hellogit is the working tree
+* In the `.git` folder we have both local repo and the working tree
+* Here `hellogit` is the working tree
 * Now the changes versioned will be stored(history stored) in the local repo
-* Now we create a folder src (coding done area) and a python based empty file (file.py)
-* To check for any changes happened we ask for git status.
-* To ask for status we need to be in the .git folder or it's subfolders
+* Now we create a folder `src` (coding done area) and a python based empty file `file.py`
+* To check for any changes happened we ask for `git status`
+* To ask for status we need to be in the `.git`folder or it's subfolders
 
 ![Alt text](shots/4.jpg)
 
 * For here we have folder src (we have a change)
-* Now to move the changes from working tree to staging area we use add command
-* Now the color changes from red to green
+* Now to move the changes _**from working tree to staging area**_ we use `add` command
+* Now the color changes from red to green to tell git about when you are changing and what are being changed 
 
 ![Alt text](shots/5.jpg)
 
-* To tell git about when you are changing and what are being changed 
-* To move the changes from staging area to the local repo we commit them along with the message -m
-* Every commit in git is a history recorded
+* To move the changes _**from staging area to the local repo**_ we `commit` them along with the `message -m`
+* Every `commit in git is a history recorded`
 
 ![Alt text](shots/6.jpg)
 
 * Now check the status
 * 'Working tree clean' in the status, shows that every thing we have in the working tree and the local repo are same
-* Now to check the history we use log command( git log )
-* To show the history in a single line we use (git log --oneline)
-* Every strange number for commit is the commit id
+* Now to _**check the history**_ we use `log`` command `git log`
+* To show the history in a single line we use `git log --oneline`
+* Every strange number for commit is the `commit id`
 
 ![Alt text](shots/7.jpg)
 
@@ -97,7 +100,7 @@
 
 ![Alt text](shots/10.jpg)
 
-* Travelling back and forth with the commit id's using the checkout command
+* _**Travelling back and forth**_ with the commit id's using the `checkout` command
 
 ![Alt text](shots/11.jpg)
 
