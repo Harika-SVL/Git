@@ -211,28 +211,40 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/28.JPG)
 
+![Alt text](shots/114.PNG)
+
 * Here the head and master both pointing to the same commit (latest commit)
 * Now we create a branch `R-1` (First release) where the head points to the branch 
 
 ![Alt text](shots/29.JPG)
 
+![Alt text](shots/115.PNG)
+
 * Here after moving into the branch using `git checkout` command , now both the master and head points to the same branch
 
 ![Alt text](shots/30.JPG)
+
+![Alt text](shots/116.PNG)
 
 * Now when we add a change in the branch and commit it, head points to the branch or latest commit made
 
 ![Alt text](shots/31.JPG)
 
+![Alt text](shots/117.PNG)
+
 * Now we get to master and check the history
 
 ![Alt text](shots/32.JPG)
+
+![Alt text](shots/118.PNG)
 
 * Now let's make changes to the master
 * To update only the modified files we use, `git add -u` command
 * Now both head and master points to the latest commit
 
 ![Alt text](shots/33.JPG)
+
+![Alt text](shots/119.PNG)
 
 * To have changes from one branch to another, we need to work with `Merging techniques`
 
@@ -246,8 +258,8 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ## Git Merging
 
-* create a new folder (branches_demo) and make it a local repo
-* Make the changes,add and commit
+* create a new folder `branches_demo` and make it a local repo
+* Make the changes, add and commit
 
 ![Alt text](shots/34.JPG)
 
