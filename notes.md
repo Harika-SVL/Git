@@ -110,61 +110,65 @@
 ![Alt text](shots/12.jpg)
 
 ## Hashing (Commit ID)
+
 * generates random numbers
 * message is same, so the hash will be same
 * Even a message is large, the hash created remains of same no.of digits
  
  ## Creating a senerio
- * First commit - create folder understanding with src,test folders
- * Second commit - Add files to src,test foleders (main.py, each)
+
+ * First commit - create folder understanding with src, test folders
+ * Second commit - Add files to src, test folders (main.py, each)
  * Third commit - Add any content into the files
- * make log for the above commits
+ * Find logs for the above commits :
 
 ![Alt text](shots/13.JPG)
 
 ![Alt text](shots/14.JPG)
  
 ## Plumbing Commands
-For better understanding, we use these commands
 
-* git cat-file -t (type we are lokking at)
-* git cat-file -p (prints the values)
-
+* For better understanding, we use these commands :
+```
+git cat-file -t <commit-ID> (type of content in the file)
+git cat-file -p <commit-ID> (prints the content of the file)
+```
 ![Alt text](shots/15.JPG)
 
-* Types and contents of the commit made :
+* Type and contents of the commits made :
+
   1. Parent - previous commit
   2. Author/Commiter - username & email configured
   3. Message - the message we give
   4. Tree - folder/directory
   5. Blob - file
 
-* let's check for previous commits
+* Let's check for previous commits :
 
 ![Alt text](shots/16.jpg)
 
-* Now checking the commit contents
+* Now checking the commit contents :
 
-First Commit
+  1. First Commit
 
 ![Alt text](shots/17.JPG)
 
-Second Commit
+  2. Second Commit
 
 * Here the contents from the previous commit, so the hash will be same for both src and test files
 
 ![Alt text](shots/18.JPG)
 
 * Now check the contents of the src file
- Here the hash of the blob of src and the Readme.md will be same as the content remains the same
+* Here the _**hash**_ of the blob of src and the Readme.md will be _**same**_ as the _**content remains the same**_
 
 ![Alt text](shots/20.JPG)
 
-Here src is an empty file
+* Here src is an `empty file`
 
 ![Alt text](shots/21.JPG)
 
-Third Commit
+  3. Third Commit
 
 ![Alt text](shots/19.JPG)
 
