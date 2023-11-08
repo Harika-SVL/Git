@@ -191,11 +191,11 @@ git cat-file -p <commit-ID> (prints the content of the file)
 # Git Branching
 
 * Branch in git always points to a latest commit id
-* We checkout for branches using git branch command
-* Master - points to the latest commit
+* We checkout for branches using `git branch` command
+* `Master` branch - points to the latest commit
 * Branch allows us for parallel development in the same repo
 
-* Now let's create a local repo and (git init) into it
+* Now let's create a local repo and `git init` into it
 
 ![Alt text](shots/25.JPG)
 
@@ -211,12 +211,12 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/28.JPG)
 
-* Here the head and master both pointing to the same commit(latest commit)
-* Now we create a branch R-1(First release) where the head points to the branch 
+* Here the head and master both pointing to the same commit (latest commit)
+* Now we create a branch `R-1` (First release) where the head points to the branch 
 
 ![Alt text](shots/29.JPG)
 
-* Here after moving into the branch using checkout command , now both he master and the head points to the branch
+* Here after moving into the branch using `git checkout` command , now both the master and head points to the same branch
 
 ![Alt text](shots/30.JPG)
 
@@ -224,25 +224,28 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/31.JPG)
 
-*Now we got to master and check the history
+* Now we get to master and check the history
 
 ![Alt text](shots/32.JPG)
 
 * Now let's make changes to the master
-* To update only the modified files we use, (git add -u) command
-* Now both head and master points to this latest commit
+* To update only the modified files we use, `git add -u` command
+* Now both head and master points to the latest commit
 
 ![Alt text](shots/33.JPG)
 
-* To have changes from one branch to another,we need to work with
-    1. Merge - Three-way merge
-             - no fast forward merge
+* To have changes from one branch to another, we need to work with `Merging techniques`
+
+    1. Merge 
+        * Three-way merge
+        * no fast-forward merge
     2. Rebase
     3. Cherry pick   
 
-* The above processes may also lead to some conflicts (Merge conflicts)
+* The above processes may also lead to some conflicts `Merge conflicts`
 
 ## Git Merging
+
 * create a new folder (branches_demo) and make it a local repo
 * Make the changes,add and commit
 
