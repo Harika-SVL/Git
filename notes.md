@@ -151,11 +151,11 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 * Now checking the commit contents :
 
-  1. First Commit
+1. First Commit
 
 ![Alt text](shots/17.JPG)
 
-  2. Second Commit
+2. Second Commit
 
 * Here the contents from the previous commit, so the hash will be same for both src and test files
 
@@ -170,7 +170,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/21.JPG)
 
-  3. Third Commit
+3. Third Commit
 
 ![Alt text](shots/19.JPG)
 
