@@ -122,6 +122,8 @@
  * Third commit - Add any content into the files
  * Find logs for the above commits :
 
+![Alt text](shots/112.PNG)
+
 ![Alt text](shots/13.JPG)
 
 ![Alt text](shots/14.JPG)
@@ -183,6 +185,8 @@ git cat-file -p <commit-ID> (prints the content of the file)
 * Now displaying the content of the file
 
 ![Alt text](shots/24.JPG)
+
+![Alt text](shots/113.PNG)
 
 # Git Branching
 
