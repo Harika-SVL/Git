@@ -35,7 +35,7 @@
         * AWS Code Commit
         * Bit Bucket
           
-* `Github` : OpenSource (now acquired by Microsoft)
+* `GITHUB` : OpenSource (now acquired by Microsoft)
 * History of Git :
 
 [Refer here : https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git ]
@@ -59,7 +59,7 @@
 * We enter into the `directory/`folder using `cd c/Git-Practice/`
 * Create a folder `hellogit` inisde the first folder
 * Using `pwd`(Pesent Working Directory) we can know the current directory
-* using `start .` the window will open where the folder/directory being created
+* Using `start .` the window will open where the folder/directory being created
 
 ![Alt text](shots/2.jpg)
 
@@ -76,7 +76,7 @@
 
 ![Alt text](shots/4.jpg)
 
-* For here we have folder src (we have a change)
+* For here we have folder `src` (we have a change)
 * Now to move the changes _**from working tree to staging area**_ we use `add` command
 * Now the color changes from `red to green` to tell git about when you are changing and what are being changed 
 
@@ -89,7 +89,7 @@
 
 * Now check the status
 * 'Working tree clean' in the status, shows that every thing we have in the working tree and the local repo are same
-* Now to _**check the history**_ we use `log`` command `git log`
+* Now to _**check the history**_ we use `log` command `git log`
 * To show the history in a single line we use `git log --oneline`
 * Every strange number for commit is the `commit id`
 
