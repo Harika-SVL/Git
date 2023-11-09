@@ -277,7 +277,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
   `git checkout -b sprint`
 
           or
-          
+
   `git branch sprint` , `git checkout sprint`
 * Here the `sprint` also points to the same commit such as main
 
@@ -296,15 +296,16 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 * Before Merge 
 
-![Alt text](shots/42.JPG)
+![Alt text](shots/120.PNG)
 
-* To obtain all the changes from the `sprint` branch to the `main`, we need to merge and to achieve that we need to be present in the `target branch` (i.e, main)
+* To obtain all the changes from the `sprint` branch to the `main`
+* The merge command is `git merge <source-branch>` i.e. you should be in `target branch` (i.e, main)
 * This is called the _**FAST-FORWARD merge**_
 * Here the merge happens as the main combines with the latest commit (i.e, sprint)
 
 * After Merge 
 
-![Alt text](shots/43.JPG)
+![Alt text](shots/121.PNG)
 
 * Command Section
 
@@ -314,7 +315,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 * Now make changes and commit to main branch
 
-![Alt text](shots/44.JPG)
+![Alt text](shots/122.PNG)
 
 * Here we have added `msg` to `src/main.py`, added only the modified file and commited
 * So we have 3 commit's now
@@ -334,7 +335,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 * Now the new commit has to be made with a main commit and a sprint commit
 * Three commit's being involved : `Three way merge`
 
-![Alt text](shots/48.JPG)
+![Alt text](shots/123.PNG)
 
 * To resolve this conflict, we use notepad editor along with git generated lines 
 
