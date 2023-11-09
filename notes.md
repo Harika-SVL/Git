@@ -466,12 +466,11 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ## Remote Repository
 
-* Git Remote Repository is any folder on any server
-* To make Git Remote accessible, generally two protocols are widely used
+* Git Remote Repository is a folder on any server
+* To make `Git Remote`` accessible, generally two protocols are widely used :
    * http(s)
    * ssh
-* There are many popular Git Repositories which are available for free.
-* Today lets get started with GitHub
+* Today let's get started with GitHub
   * Create an account in GitHub 
    
   [Refer Here : https://github.com/ ]
@@ -484,7 +483,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/126.PNG)
 
-* Now add this repository as remote to your local repository
+* Now add this repository as `remote` to your `local repository`
 
 ![Alt text](shots/127.PNG)
 
@@ -494,16 +493,16 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/129.PNG)
 
-* Now lets see all the branches in the repo
+* Now let's see all the branches in the repo
 
 ![Alt text](shots/130.PNG)
 
-* The branches in remote represent remote branches
-* Now let's push the sprint 0 branch as well
+* The branches in `remote` represent `remote branches`
+* Now let's push the sprint branch as well
 
 ![Alt text](shots/131.PNG)
 
-* In Organizations we will already have some repositories, Now to get the changes from remote to local we perform clone. Lets clone spring pet clinic
+* In Organizations we will already have some repositories, Now to get the changes from remote to local we perform clone. Let's clone spring pet clinic
 
 ![Alt text](shots/132.PNG)
 
