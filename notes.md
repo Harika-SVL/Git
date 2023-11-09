@@ -267,15 +267,17 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/35.JPG)
 
-* create a `commit` on main
+* Create a `commit` on main
 
 ![Alt text](shots/36.JPG)
 
 ![Alt text](shots/37.JPG)
 
 * Let's create a branch `sprint` from the main branch
-  `git checkout -b sprint``
+  `git checkout -b sprint`
+
           or
+          
   `git branch sprint` , `git checkout sprint`
 * Here the `sprint` also points to the same commit such as main
 
