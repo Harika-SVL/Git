@@ -572,7 +572,70 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/148.PNG)
 
+### Git Authentication Methods
 
+* Git has two popular authentication methods
+    * username and password/token
+    * ssh key pair
+* Creating a PAT for GitHub 
+  
+  [Refer Here : https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens ]
+* Use ssh-keygen to generate `id_rsa`` and `id_rsa.pub` files in `<HOME-DIR>/.ssh`
+* copy the `id_rsa.pub` in 
+=> GitHub => Settings => SSH and GPG keys => New SSH Key
+
+### Git Remote and Branches
+
+* The command to push `git push <remote-name> <branch-name>`
+
+#### Upstream branches
+
+* In Git while pushing the code if we observe the following errors
+
+![Alt text](shots/149.PNG)
+
+![Alt text](shots/150.PNG)
+
+* By setting the upstream branch we are setting the default remote
+
+### Making changes in Local commits
+
+* We have the latest commit in which there is typo in commit message which we want to correct
+
+![Alt text](shots/151.PNG)
+
+![Alt text](shots/152.PNG)
+
+* Now i want to delete this extra commit and then fix typo
+* Clone the code from 
+
+[Refer Here : https://github.com/GitPracticeRepo/Rework ]
+
+* `git commit --amend` can be used to reword the latest commit not previous
+* Look at classroom video to
+* edit: make the changes in commit
+* reword: change the commit message
+* squash: combine commits
+* Exercise: 
+
+[Refer Here : https://gitexercises.fracz.com/ ]
+* Try to solve atleast 10 exercises
+
+### Git Repository Types
+
+* Bare Repository: This repository will have only .git folder no working tree. This is used generally on server sides on git remotes
+* mirror Repostiory: This repository also will have only .git folder and used to cater to other users
+* Normal Repositoru: Here we get working tree as well as .git and is used for development
+
+### Other topics
+
+* Force push `git push --force` this command pushes the changes to git remote and overrides the remote repo history.
+* Git maintains two logs in your local repo
+   * log
+   * ref log: maintains the history of all changes done into local
+
+![Alt text](shots/153.PNG)
+* Try `git log` examples and `git diff` examples
  
 
   
