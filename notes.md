@@ -44,7 +44,7 @@
 
 [Refer here : C:\Users\Harika\Desktop\DEVOPS + AWS\DEVOPS ]
 
-### Git Workflow
+## Git Workflow
 
 ![Alt text](shots/1.jpg)
 
@@ -115,7 +115,7 @@
 * message is same, so the hash will be same
 * Even a message is large, the hash created remains of same no.of digits
  
- ## Creating a senerio
+ ### Creating a senerio
 
  * First commit - create folder understanding with src, test folders
  * Second commit - Add files to src, test folders (main.py, each)
@@ -128,7 +128,7 @@
 
 ![Alt text](shots/14.JPG)
  
-## Plumbing Commands
+### Plumbing Commands
 
 * For better understanding, we use these commands :
 ```
@@ -188,7 +188,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/113.PNG)
 
-# Git Branching
+## Git Branching
 
 * Branch in git always points to a latest commit id
 * We checkout for branches using `git branch` command
@@ -288,7 +288,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/39.JPG)
 
-## FAST FORWARD MERGE
+### FAST FORWARD MERGE
 
 * Now the current state of the branches is
 
@@ -311,7 +311,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/41.JPG)
 
-## THREE WAY MERGE
+### THREE WAY MERGE
 
 * Now make changes and commit to main branch
 
