@@ -395,29 +395,17 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/66.JPG)
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Git Rebase
 
 * Create a scenerio as follows
 
 ![Alt text](shots/67.JPG)
 
-![Alt text](shots/68.JPG)
+![Alt text](shots/120.PNG)
 
-* Rebase is a command used to get changes from one branch to other by rewriting history
+* Rebase is a command used to get changes from `one branch to other` by _**rewriting history**_
 * Make two changes and commit them in the main branch
-* To directly add and commit at same time we use (git commit -am "message") command
+* To directly add and commit at same time we use `git commit -am "message"` command
 
 ![Alt text](shots/69.JPG)
 
@@ -425,23 +413,23 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/71.JPG)
 
-* Now the chnages in the main branch to be merged into sprint branch, we have two ways to do this
+* Now the chnages in the main branch to be merged into sprint branch, we have two ways :
 
-1. Three way merge as follows (confusing approach)
+1. Three way merge (confusing approach)
 
 ![Alt text](shots/72.JPG)
 
-2. Rebase as follows (cleaner approach)
+2. Rebase (cleaner approach)
 
-* Rebase is useful for all the child branches but never rebase main/master from child as rebase rewrites history.
-* To rebase we checkout sprint and rebase to main using (git rebase main) command
+* Rebase is useful for all the child branches but _**never rebase main/master from child**_ as rebase rewrites history.
+* To rebase we checkout sprint and rebase to main using `git rebase main` command
 
 ![Alt text](shots/73.JPG)
 
 ![Alt text](shots/74.JPG)
 
 * Here arises a merge conflict, with the src/main.py
-* we open the file in notepad, edit with changes and now rebase again using (git rebase --continue) command
+* we open the file in notepad, edit with changes and now rebase again using `git rebase --continue` command
 
 ![Alt text](shots/75.JPG)
 
@@ -453,7 +441,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/78.JPG)
 
-* This is nothing but the rewriting of the history
+* This is nothing but the _**rewriting of the history**_
 
 ## Git Cherry pick
 
