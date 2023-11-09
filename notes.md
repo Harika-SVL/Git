@@ -512,8 +512,65 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/134.PNG)
 
+### Multi User Git Scenarios
 
+* Create a Git Repo in `GitHub`
+* GitHub and many repositories use `md` (markdown) as a default document format
+* Simulate two users (RRR) :
+   * Ram
+   * Bheem
+* Create local config's for username and emails
 
+![Alt text](shots/135.PNG)
+
+![Alt text](shots/136.PNG)
+
+* Create a commit on each of thier machines
+
+![Alt text](shots/137.PNG)
+
+![Alt text](shots/138.PNG)
+
+* Current status
+
+![Alt text](shots/139.PNG)
+
+* Let ram push the changes
+
+![Alt text](shots/140.PNG)
+
+* Current status
+
+![Alt text](shots/141.PNG)
+
+* Let Bheem push the changes
+
+![Alt text](shots/142.PNG)
+
+* This failed as bheems origin doesnot represent latest changes in Remote.
+* Bheem now executes (git pull) which will fetch the changes from remote and merge the changes. In this situation due to merge an extra commit is created
+
+![Alt text](shots/143.PNG)
+
+* Now bheem pushes the changes to remote repo
+
+![Alt text](shots/144.PNG)
+
+* Current status
+
+![Alt text](shots/145.PNG)
+
+* Now let RAM does one commit
+
+![Alt text](shots/146.PNG)
+
+* RAM when pushesh will fail, so ram decides to pull using rebase
+
+![Alt text](shots/147.PNG)
+
+* Now push the changes
+
+![Alt text](shots/148.PNG)
 
 
  
