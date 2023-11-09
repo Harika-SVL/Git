@@ -256,6 +256,10 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 * The above processes may also lead to some conflicts `Merge conflicts`
 
+#### git branching strategy
+
+[Refer here : https://nvie.com/posts/a-successful-git-branching-model/ ]
+
 ## Git Merging
 
 * Create a new folder `branches_demo` and make it a local repo
@@ -445,7 +449,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ## Git Cherry pick
 
-* If we need to pick specific commits or specific range of commits (sequence) of commits , cherry pick can be used
+* If we need to pick specific commits or specific range (sequence) of commits , cherry pick can be used
 * Firstly, we add two commits
 
 ![Alt text](shots/79.JPG)
@@ -454,9 +458,9 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 * Performing changes from any commit to any branch
 * Now consider the above, we want changes from commit (commit id - 97bb278) into main branch
-* So we use cherry pick
+* So we use cherry pick `git cherry-pick <commit-ID>`
  * first checkout the target/destination
- * use cherry-pick(git cherry-pick 97bb278)command
+ * use cherry-pick `git cherry-pick 97bb278` command
 
 ![Alt text](shots/81.JPG)
 
