@@ -502,7 +502,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/131.PNG)
 
-* In Organizations we will already have some repositories, Now to get the changes from remote to local we perform clone. Let's `git clone https://github.com/spring-projects/spring-petclinic.git'
+* In Organizations we will already have some repositories, Now to get the changes from remote to local we perform clone. Let's `git clone https://github.com/spring-projects/spring-petclinic.git`
 
 ![Alt text](shots/132.PNG)
 
