@@ -258,31 +258,31 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ## Git Merging
 
-* create a new folder `branches_demo` and make it a local repo
-* Make the changes, add and commit
+* Create a new folder `branches_demo` and make it a local repo
+* Make the changes, `add` and `commit`
 
 ![Alt text](shots/34.JPG)
 
-* Now let's change the branch name from master to main
+* Now let's change the branch name from _**master to main**_
 
 ![Alt text](shots/35.JPG)
 
-* create a commit on main
+* create a `commit` on main
 
 ![Alt text](shots/36.JPG)
 
 ![Alt text](shots/37.JPG)
 
-* Let's create a branch sprint from the main branch
-  (git checkout -b sprint)
+* Let's create a branch `sprint` from the main branch
+  `git checkout -b sprint``
           or
-  (git branch sprint, git checkout sprint)
-* Here the sprint also points to the same commit such as main
+  `git branch sprint` , `git checkout sprint`
+* Here the `sprint` also points to the same commit such as main
 
   ![Alt text](shots/38.JPG)  
 
 * we make a change in the sprint and also create a file
-* To only add modified files ignoring the new created files, we use (git add -u)
+* To only add modified files ignoring the new created files, we use `git add -u`
 
 ![Alt text](shots/39.JPG)
 
@@ -292,19 +292,19 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/40.JPG)
 
-Before Merge the picture
+* Before Merge 
 
 ![Alt text](shots/42.JPG)
 
-* To obtain all the changes from the sprint branch to the main, we need to merge and to achieve that we need to be present in the target branch(i.e, main)
-* This is called the FAST-FORWARD merge
-* Here the merge happens as the main combines with the latest commit(i.e, sprint)
+* To obtain all the changes from the `sprint` branch to the `main`, we need to merge and to achieve that we need to be present in the `target branch` (i.e, main)
+* This is called the _**FAST-FORWARD merge**_
+* Here the merge happens as the main combines with the latest commit (i.e, sprint)
 
-After Merge the picture
+* After Merge 
 
 ![Alt text](shots/43.JPG)
 
-Command Section
+* Command Section
 
 ![Alt text](shots/41.JPG)
 
@@ -314,7 +314,7 @@ Command Section
 
 ![Alt text](shots/44.JPG)
 
-* Here we have added msg to src/main.py, added only the modified file and commited
+* Here we have added `msg` to `src/main.py`, added only the modified file and commited
 * So we have 3 commit's now
 
 ![Alt text](shots/45.JPG)
@@ -330,23 +330,23 @@ Command Section
 ![Alt text](shots/47.JPG)
 
 * Now the new commit has to be made with a main commit and a sprint commit
-* Three commit's being involved (3 way merge)
+* Three commit's being involved : `Three way merge`
 
 ![Alt text](shots/48.JPG)
 
-* To resolve this conflict, we use notepad editor along with git generated lines as
+* To resolve this conflict, we use notepad editor along with git generated lines 
 
 ![Alt text](shots/49.JPG)
 
-* Now make the changes and save the file as
+* Now make the changes and save the file 
 
 ![Alt text](shots/50.JPG)
 
-* And the command line follows as
+* And the command line follows 
 
 ![Alt text](shots/51.JPG)
 
-* Here the merge commit has two parents and also the graph (git log --graph --all)represented as
+* Here the `merge commit` has two parents and also the graph `git log --graph --all` represented as
 
 ![Alt text](shots/52.JPG)
 
@@ -386,7 +386,7 @@ Command Section
 
 ![Alt text](shots/64.JPG)
 
-* We look at all the senerio using graph representation using (git log --graph --oneline --all)command
+* We look at all the scenerio using graph representation using `git log --graph --oneline --all` command
 
 ![Alt text](shots/65.JPG)
 
