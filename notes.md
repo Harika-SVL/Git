@@ -515,7 +515,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 ### Multi User Git Scenarios
 
 * Create a Git Repo in `GitHub`
-* GitHub and many repositories use `md` (markdown) as a default document format
+* GitHub and many repositories use _**md**_ (markdown) as a default document format
 * Simulate two users (RRR) :
    * Ram
    * Bheem
@@ -548,7 +548,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 ![Alt text](shots/142.PNG)
 
 * This failed as bheems origin doesnot represent latest changes in Remote.
-* Bheem now executes (git pull) which will fetch the changes from remote and merge the changes. In this situation due to merge an extra commit is created
+* Bheem now executes `git pull` which will fetch the changes from remote and merge the changes. In this situation due to merge an extra commit is created
 
 ![Alt text](shots/143.PNG)
 
@@ -564,7 +564,7 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 ![Alt text](shots/146.PNG)
 
-* RAM when pushesh will fail, so ram decides to pull using rebase
+* RAM when pushes will fail, so ram decides to pull using rebase
 
 ![Alt text](shots/147.PNG)
 
