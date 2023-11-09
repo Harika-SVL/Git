@@ -468,14 +468,50 @@ git cat-file -p <commit-ID> (prints the content of the file)
 
 * Git Remote Repository is any folder on any server
 * To make Git Remote accessible, generally two protocols are widely used
-   1. http(s)
-   2. ssh
+   * http(s)
+   * ssh
 * There are many popular Git Repositories which are available for free.
-* lets get started with GitHub
+* Today lets get started with GitHub
+  * Create an account in GitHub 
+   
+  [Refer Here : https://github.com/ ]
+
 * Create a new repository in GitHub
 
+![Alt text](shots/124.PNG)
 
+![Alt text](shots/125.PNG)
 
+![Alt text](shots/126.PNG)
+
+* Now add this repository as remote to your local repository
+
+![Alt text](shots/127.PNG)
+
+* Now let's push the changes from local to remote : `git push <remote-name> <branch/tag name>`
+
+![Alt text](shots/128.PNG)
+
+![Alt text](shots/129.PNG)
+
+* Now lets see all the branches in the repo
+
+![Alt text](shots/130.PNG)
+
+* The branches in remote represent remote branches
+* Now let's push the sprint 0 branch as well
+
+![Alt text](shots/131.PNG)
+
+* In Organizations we will already have some repositories, Now to get the changes from remote to local we perform clone. Lets clone spring pet clinic
+
+![Alt text](shots/132.PNG)
+
+![Alt text](shots/133.PNG)
+
+* Summary
+
+![Alt text](shots/134.PNG)
 
 
 
